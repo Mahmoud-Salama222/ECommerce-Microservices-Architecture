@@ -1,0 +1,50 @@
+﻿[
+  {
+    "Id": "64a1f2e9b7d3c1a5e4a1c001",
+    "Name": "Laptop Dell XPS 15",
+    "Description": "High performance laptop for professionals.",
+    "Summary": "Dell XPS series laptop with Intel i7 and 16GB RAM.",
+    "ImageFile": "laptop_dell_xps15.png",
+    "Price": 1499.99,
+    "Brand": {
+      "Id": "507f1f77bcf86cd799439015",
+      "Name": "Dell"
+    },
+    "Type": {
+      "Id": "507f1f77bcf86cd799439012",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "64a1f2e9b7d3c1a5e4a1c002",
+    "Name": "iPhone 14 Pro",
+    "Description": "Latest Apple iPhone with advanced camera system.",
+    "Summary": "Apple iPhone 14 Pro, 256GB, A16 Bionic.",
+    "ImageFile": "iphone14pro.png",
+    "Price": 1199.00,
+    "Brand": {
+      "Id": "507f1f77bcf86cd799439010",
+      "Name": "Apple"
+    },
+    "Type": {
+      "Id": "507f1f77bcf86cd799439013",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "64a1f2e9b7d3c1a5e4a1c003",
+    "Name": "Sony WH-1000XM5",
+    "Description": "Wireless noise-canceling headphones.",
+    "Summary": "Premium Sony headphones with noise-canceling technology.",
+    "ImageFile": "sony_wh1000xm5.png",
+    "Price": 399.99,
+    "Brand": {
+      "Id": "507f1f77bcf86cd799439016",
+      "Name": "Sony"
+    },
+    "Type": {
+      "Id": "507f1f77bcf86cd799439014",
+      "Name": "Headphones"
+    }
+  }
+]

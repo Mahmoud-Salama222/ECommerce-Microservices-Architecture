@@ -1,0 +1,147 @@
+
+
+services:
+  catalog.api:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: Services/Catalog/Catalog.Api/Dockerfile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - CatalogDB
+    environment:
+      - ASPNETCORE_URLS=http://+:8000
+      - DatabaseSetting__ConnectionString=mongodb://CatalogDB:27017
+      - DatabaseSetting__DatabaseName=CatalogDB 
+      - DatabaseSetting__ProductsCollection=Products
+      - DatabaseSetting__BrandsCollection=Brands
+      - DatabaseSetting__TypesCollection=Types
+  
+  CatalogDB:
+    image: mongo
+    container_name: CatalogDB
+    ports:
+      - "27017:27017"
+    volumes:
+      - Catalogdata:/data/db
+
+  basketdb:
+    image: redis:alpine
+    container_name: basketdb
+    restart: always
+    ports:
+      - "6379:6379"
+
+  discountdb:
+    image: postgres
+    container_name: DiscountDb
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=Password@1
+      - POSTGRES_DB=DiscountDb
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U admin -d DiscountDb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  orderdb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: orderdb
+    environment: 
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "P@ssw0rd123"
+    restart: always
+    ports:
+      - "1433:1433"
+    volumes:
+      - orderdb-data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL","/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'P@ssw0rd123' -Q 'select 1'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@ecommerce.com
+      - PGADMIN_DEFAULT_PASSWORD=Password@1
+    restart: always
+    ports:
+      - "5080:80"
+    volumes:
+      - pgadmin_data:/root/.pgadmin
+
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+    ports:
+      - "8001:8000"
+    depends_on:
+      - basketdb
+      - discount.api
+    environment:
+      - ASPNETCORE_URLS=http://+:8000
+      - CacheSettings__ConnectionString=basketdb:6379
+      - "GrpcSettings__DiscountUrl=http://discount.api:8080"
+
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    restart: always
+    ports: 
+      - 8004:8000
+      - 9000:9000
+    volumes:
+      - portainer_data:/data
+
+  discount.api:
+    image: ${DOCKER_REGISTRY-}discountapi
+    build:
+      context: .
+      dockerfile: Services/Discount/Discount.API/Dockerfile
+    container_name: discount.api
+    depends_on:
+      discountdb:
+        condition: service_healthy
+    ports:
+      - "8002:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - 'DatabaseSettings__ConnectionString=Server=discountdb;Port=5432;Database=DiscountDb;User Id=admin;Password=Password@1;'
+
+  ordering.api:
+    image: ${DOCKER_REGISTRY-}orderingapi
+    build:
+      context: .
+      dockerfile: Services/Ordering/Ordering.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - "ConnectionString__OrderingConnectionString=Server=localhost;Database=OrderDb2 ; User Id=sa;Password=P@ssw0rd123;TrustCertificate=True;"
+    depends_on:
+     - orderdb
+    ports:
+       - "8003:8080"
+  
+
+
+volumes:
+  Catalogdata:
+  portainer_data:
+  postgres_data:
+  pgadmin_data:
+  orderdb-data:
+

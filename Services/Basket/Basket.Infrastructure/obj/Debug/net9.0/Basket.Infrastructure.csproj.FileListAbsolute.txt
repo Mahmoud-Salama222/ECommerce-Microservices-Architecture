@@ -1,0 +1,17 @@
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Infrastructure.deps.json
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Infrastructure.dll
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Infrastructure.pdb
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Application.dll
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Core.dll
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Application.pdb
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net9.0\Basket.Core.pdb
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.csproj.AssemblyReference.cache
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.AssemblyInfoInputs.cache
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.AssemblyInfo.cs
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.csproj.CoreCompileInputs.cache
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.I.99EAA0BF.Up2Date
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.dll
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\refint\Basket.Infrastructure.dll
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\Basket.Infrastructure.pdb
+D:\repo\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net9.0\ref\Basket.Infrastructure.dll

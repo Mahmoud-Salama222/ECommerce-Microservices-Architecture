@@ -1,0 +1,12 @@
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\bin\Debug\net9.0\Catalog.Core.deps.json
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\bin\Debug\net9.0\Catalog.Core.dll
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\bin\Debug\net9.0\Catalog.Core.pdb
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.csproj.AssemblyReference.cache
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.AssemblyInfoInputs.cache
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.AssemblyInfo.cs
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.csproj.CoreCompileInputs.cache
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.dll
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\refint\Catalog.Core.dll
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\Catalog.Core.pdb
+D:\repo\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net9.0\ref\Catalog.Core.dll

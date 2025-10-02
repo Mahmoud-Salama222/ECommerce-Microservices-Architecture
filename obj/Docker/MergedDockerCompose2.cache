@@ -1,0 +1,239 @@
+name: dockercompose10646473098415119787
+services:
+  CatalogDB:
+    container_name: CatalogDB
+    image: mongo
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27017"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: Catalogdata
+        target: /data/db
+        volume: {}
+  basket.api:
+    build:
+      context: D:\repo\Ecommerce
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+    depends_on:
+      basketdb:
+        condition: service_started
+        required: true
+      discount.api:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_URLS: http://+:8000
+      CacheSettings__ConnectionString: basketdb:6379
+      GrpcSettings__DiscountUrl: http://discount.api:8080
+    image: basketapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8000
+        published: "8001"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+  basketdb:
+    container_name: basketdb
+    image: redis:alpine
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 6379
+        published: "6379"
+        protocol: tcp
+    restart: always
+  catalog.api:
+    build:
+      context: D:\repo\Ecommerce
+      dockerfile: Services/Catalog/Catalog.Api/Dockerfile
+    depends_on:
+      CatalogDB:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_URLS: http://+:8000
+      DatabaseSetting__BrandsCollection: Brands
+      DatabaseSetting__ConnectionString: mongodb://CatalogDB:27017
+      DatabaseSetting__DatabaseName: CatalogDB
+      DatabaseSetting__ProductsCollection: Products
+      DatabaseSetting__TypesCollection: Types
+    image: catalogapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8000
+        published: "8000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+  discount.api:
+    build:
+      context: D:\repo\Ecommerce
+      dockerfile: Services/Discount/Discount.API/Dockerfile
+    container_name: discount.api
+    depends_on:
+      discountdb:
+        condition: service_healthy
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_URLS: http://+:8080
+      DatabaseSettings__ConnectionString: Server=discountdb;Port=5432;Database=DiscountDb;User Id=admin;Password=Password@1;
+    image: discountapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8002"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+  discountdb:
+    container_name: DiscountDb
+    environment:
+      POSTGRES_DB: DiscountDb
+      POSTGRES_PASSWORD: Password@1
+      POSTGRES_USER: admin
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U admin -d DiscountDb
+      timeout: 5s
+      interval: 10s
+      retries: 5
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres_data
+        target: /var/lib/postgresql/data
+        volume: {}
+  orderdb:
+    container_name: orderdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: P@ssw0rd123
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'P@ssw0rd123' -Q 'select 1'
+      timeout: 5s
+      interval: 10s
+      retries: 5
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: orderdb-data
+        target: /var/opt/mssql
+        volume: {}
+  ordering.api:
+    build:
+      context: D:\repo\Ecommerce
+      dockerfile: Services/Ordering/Ordering.Api/Dockerfile
+    depends_on:
+      orderdb:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionString__OrderingConnectionString: Server=localhost;Database=OrderDb2 ; User Id=sa;Password=P@ssw0rd123;TrustCertificate=True;
+    image: orderingapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8003"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@ecommerce.com
+      PGADMIN_DEFAULT_PASSWORD: Password@1
+    image: dpage/pgadmin4
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5080"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: pgadmin_data
+        target: /root/.pgadmin
+        volume: {}
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8000
+        published: "8004"
+        protocol: tcp
+      - mode: ingress
+        target: 9000
+        published: "9000"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: portainer_data
+        target: /data
+        volume: {}
+networks:
+  default:
+    name: dockercompose10646473098415119787_default
+volumes:
+  Catalogdata:
+    name: dockercompose10646473098415119787_Catalogdata
+  orderdb-data:
+    name: dockercompose10646473098415119787_orderdb-data
+  pgadmin_data:
+    name: dockercompose10646473098415119787_pgadmin_data
+  portainer_data:
+    name: dockercompose10646473098415119787_portainer_data
+  postgres_data:
+    name: dockercompose10646473098415119787_postgres_data

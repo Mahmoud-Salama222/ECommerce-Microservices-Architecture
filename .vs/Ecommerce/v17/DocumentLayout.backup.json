@@ -1,0 +1,794 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repo\\Ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\handeler\\commends\\updateordercommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\handeler\\commends\\updateordercommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.core\\irpositries\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|solutionrelative:services\\ordering\\ordering.core\\irpositries\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\commends\\updateordercommend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\commends\\updateordercommend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\handeler\\commends\\checkoutordercommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\handeler\\commends\\checkoutordercommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\repositry\\repositrybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\repositry\\repositrybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\ordermappingprofiles\\ordermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\ordermappingprofiles\\ordermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\commends\\checkoutordercommend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\commends\\checkoutordercommend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\commends\\deleteordercommend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\commends\\deleteordercommend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|solutionrelative:services\\ordering\\ordering.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\repositry\\orderrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\repositry\\orderrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\data\\ordercontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\data\\ordercontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\handeler\\queires\\getorderlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\handeler\\queires\\getorderlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\responsedto\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\responsedto\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\behaviors\\unhandledexceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\behaviors\\unhandledexceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\queries\\getorderlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\queries\\getorderlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\extensions\\infraservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\extensions\\infraservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\extension\\dbextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\extension\\dbextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\extensions\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\extensions\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\data\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\data\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\migrations\\20250918231004_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\migrations\\20250918231004_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\handeler\\commends\\deleteordercommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\handeler\\commends\\deleteordercommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6776038-55D0-42F8-B010-6CBFF711DF10}|docker-compose.dcproj|d:\\repo\\ecommerce\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A6776038-55D0-42F8-B010-6CBFF711DF10}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6776038-55D0-42F8-B010-6CBFF711DF10}|docker-compose.dcproj|d:\\repo\\ecommerce\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6776038-55D0-42F8-B010-6CBFF711DF10}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6776038-55D0-42F8-B010-6CBFF711DF10}|docker-compose.dcproj|d:\\repo\\ecommerce\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A6776038-55D0-42F8-B010-6CBFF711DF10}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\validaitoer\\updateordercommendvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\validaitoer\\updateordercommendvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\validaitoer\\checkoutordercommendvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\validaitoer\\checkoutordercommendvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.application\\exceptions\\ordernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019A53C-D750-4994-984A-6B9855AE6615}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\exceptions\\ordernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\ordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\ordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D13EFCE6-A57A-470C-9AEC-B336B53566F8}|Services\\Ordering\\Ordering.Api\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA9A75A-6A5F-418A-9AB1-5B4CB3DB55F3}|Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj|d:\\repo\\ecommerce\\services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA9A75A-6A5F-418A-9AB1-5B4CB3DB55F3}|Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj|solutionrelative:services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.core\\irpositries\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|solutionrelative:services\\ordering\\ordering.core\\irpositries\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.core\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E3C25B-0422-451B-B192-877698EF557B}|Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj|solutionrelative:services\\ordering\\ordering.core\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|d:\\repo\\ecommerce\\services\\ordering\\ordering.infrastructure\\data\\ordercontextfactoery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF822389-F650-44AA-BCE9-31DBBFD2691C}|Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:services\\ordering\\ordering.infrastructure\\data\\ordercontextfactoery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 458,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositryBase.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Repositry\\RepositryBase.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Repositry\\RepositryBase.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Repositry\\RepositryBase.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Repositry\\RepositryBase.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAMwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T21:41:45.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswCoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T20:28:43.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateOrderCommendHandler.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\commends\\UpdateOrderCommendHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\handeler\\commends\\UpdateOrderCommendHandler.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\commends\\UpdateOrderCommendHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\handeler\\commends\\UpdateOrderCommendHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:37:12.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\IRpositries\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\IRpositries\\IAsyncRepository.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\IRpositries\\IAsyncRepository.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\IRpositries\\IAsyncRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T13:47:23.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckoutOrderCommendHandler.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\commends\\CheckoutOrderCommendHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\handeler\\commends\\CheckoutOrderCommendHandler.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\commends\\CheckoutOrderCommendHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\handeler\\commends\\CheckoutOrderCommendHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:17:47.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateOrderCommend.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Commends\\UpdateOrderCommend.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Commends\\UpdateOrderCommend.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Commends\\UpdateOrderCommend.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Commends\\UpdateOrderCommend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:36:47.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderMappingProfile.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\OrderMappingProfiles\\OrderMappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\OrderMappingProfiles\\OrderMappingProfile.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\OrderMappingProfiles\\OrderMappingProfile.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\OrderMappingProfiles\\OrderMappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T14:24:18.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteOrderCommend.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Commends\\DeleteOrderCommend.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Commends\\DeleteOrderCommend.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Commends\\DeleteOrderCommend.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Commends\\DeleteOrderCommend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:24:31.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckoutOrderCommend.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Commends\\CheckoutOrderCommend.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Commends\\CheckoutOrderCommend.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Commends\\CheckoutOrderCommend.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Commends\\CheckoutOrderCommend.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:17:00.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T13:21:23.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderRepositry.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Repositry\\OrderRepositry.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Repositry\\OrderRepositry.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Repositry\\OrderRepositry.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Repositry\\OrderRepositry.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAjwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T22:28:28.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\ResponseDto\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\ResponseDto\\OrderResponse.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\ResponseDto\\OrderResponse.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\ResponseDto\\OrderResponse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T14:27:21.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderContextSeed.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextSeed.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextSeed.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextSeed.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextSeed.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAjwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T21:26:37.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Program.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Program.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAjwEAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:51:12.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetOrderListQueryHandler.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\Queires\\GetOrderListQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\handeler\\Queires\\GetOrderListQueryHandler.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\Queires\\GetOrderListQueryHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\handeler\\Queires\\GetOrderListQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:07:07.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnhandledExceptionBehavior.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Behaviors\\UnhandledExceptionBehavior.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Behaviors\\UnhandledExceptionBehavior.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Behaviors\\UnhandledExceptionBehavior.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Behaviors\\UnhandledExceptionBehavior.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA4wBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:49:32.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetOrderListQuery.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Queries\\GetOrderListQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Queries\\GetOrderListQuery.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Queries\\GetOrderListQuery.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Queries\\GetOrderListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:07:58.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\appsettings.json",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\appsettings.json",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-29T14:29:30.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InfraServices.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Extensions\\InfraServices.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Extensions\\InfraServices.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Extensions\\InfraServices.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Extensions\\InfraServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAWwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T22:02:46.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceRegisteration.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Extensions\\ServiceRegisteration.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Extensions\\ServiceRegisteration.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Extensions\\ServiceRegisteration.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Extensions\\ServiceRegisteration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:47:08.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DbExtension.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Extension\\DbExtension.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Extension\\DbExtension.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Extension\\DbExtension.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Extension\\DbExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T20:19:08.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250918231004_InitialCreate.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20250918231004_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20250918231004_InitialCreate.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20250918231004_InitialCreate.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20250918231004_InitialCreate.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T23:10:04.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderContext.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContext.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContext.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContext.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T20:52:13.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DeleteOrderCommendHandler.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\commends\\DeleteOrderCommendHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\handeler\\commends\\DeleteOrderCommendHandler.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\handeler\\commends\\DeleteOrderCommendHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\handeler\\commends\\DeleteOrderCommendHandler.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:24:27.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\repo\\Ecommerce\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAhwHoAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-08-29T14:40:52.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "D:\\repo\\Ecommerce\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T15:59:35.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AgIAALsAAAAAAAAAAAAEwNAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-18T21:57:31.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\repo\\Ecommerce\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-29T14:40:48.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateOrderCommendValidator.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Validaitoer\\UpdateOrderCommendValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Validaitoer\\UpdateOrderCommendValidator.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Validaitoer\\UpdateOrderCommendValidator.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Validaitoer\\UpdateOrderCommendValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:45:16.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CheckoutOrderCommendValidator.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Validaitoer\\CheckoutOrderCommendValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Validaitoer\\CheckoutOrderCommendValidator.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Validaitoer\\CheckoutOrderCommendValidator.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Validaitoer\\CheckoutOrderCommendValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:44:38.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Controllers\\BaseApiController.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T20:36:44.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Exceptions\\ValidationException.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Exceptions\\ValidationException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:45:29.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:49:09.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderNotFoundException.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Exceptions\\OrderNotFoundException.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Exceptions\\OrderNotFoundException.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Application\\Exceptions\\OrderNotFoundException.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Exceptions\\OrderNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:46:29.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Ordering.API.csproj",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Ordering.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Ordering.API.csproj",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Ordering.API.csproj",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Ordering.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-15T20:56:59.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Dockerfile",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Dockerfile",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-29T14:42:49.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Catalog\\Catalog.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Api\\Program.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Catalog\\Catalog.Api\\Program.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Api\\Program.cs",
+              "ViewState": "AgIAABUAAABAmZmZmZkhwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T20:51:25.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OrderContextFactoery.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextFactoery.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextFactoery.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextFactoery.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Data\\OrderContextFactoery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T21:22:10.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAACszMzMzMwnwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-29T14:33:33.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T13:23:22.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\IRpositries\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\IRpositries\\IOrderRepository.cs",
+              "ToolTip": "D:\\repo\\Ecommerce\\Services\\Ordering\\Ordering.Core\\IRpositries\\IOrderRepository.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\IRpositries\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T13:21:16.283Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
