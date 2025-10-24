@@ -1,10 +1,11 @@
+using System.Reflection;
 using Basket.Application.GrpcServices;
 using Basket.Application.Mappers;
 using Basket.Application.Queries;
 using Basket.Core.Repositries;
 using Basket.Infrastructure.Repositries;
 using Discount.Grpc.Protos;
-using System.Reflection;
+using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,12 +18,6 @@ builder.Services.AddScoped<DiscountGrpcService>();
 builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(
     o => o.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"])
 );
-
-builder.Services.AddScoped<IBasketRepository, BasketRepository>();
-builder.Services.AddAutoMapper(typeof(BasketMappingProfile).Assembly);
-builder.Services.AddMediatR(config =>
-config.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly(), Assembly.GetAssembly(typeof(GetBasketByUserNameQuery))));
-
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;
@@ -59,6 +54,22 @@ builder.Services.AddSwaggerGen(options =>
 
 
 });
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((ct, cfg) =>
+    {
+
+        cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
+    });
+});
+
+builder.Services.AddMassTransitHostedService();
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+builder.Services.AddAutoMapper(typeof(BasketMappingProfile).Assembly);
+builder.Services.AddMediatR(config =>
+config.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly(), Assembly.GetAssembly(typeof(GetBasketByUserNameQuery))));
+
+
 builder.Services.AddStackExchangeRedisCache(opt =>
 {
     opt.Configuration = builder.Configuration.

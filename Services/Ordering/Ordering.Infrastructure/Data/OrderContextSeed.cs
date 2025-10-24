@@ -1,11 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
 using Ordering.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ordering.Infrastructure.Data
 {
@@ -30,8 +24,7 @@ namespace Ordering.Infrastructure.Data
                     UserName="mahmodudSalama",
                     EmailAddress="Mahmoud222Salama@gmail.com",
                     AddressLine="Egypt",
-
-                    Counter="Egypt",
+                    Country="Egypt",
                     TotalPrice=100,
                     FirstName="Mahmoud",
                     LastName="Salama",

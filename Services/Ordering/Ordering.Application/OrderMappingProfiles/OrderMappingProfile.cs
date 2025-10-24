@@ -1,13 +1,9 @@
 ﻿using AutoMapper;
 using Discount.Application.commends;
+using EventBus.Messages.Events;
 using Ordering.Application.Commends;
 using Ordering.Application.ResponseDto;
 using Ordering.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ordering.Application.OrderMappingProfiles
 {
@@ -19,6 +15,8 @@ namespace Ordering.Application.OrderMappingProfiles
             CreateMap<Order, CheckoutOrderCommand>().ReverseMap();
             CreateMap<Order, UpdateOrderCommand>().ReverseMap();
             CreateMap<Order, DeleteOrderCommand>().ReverseMap();
+            CreateMap<CheckoutOrderCommand, BasketCheckOutEvent>().ReverseMap();
+
 
 
 

@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Basket.Core.Entities
+﻿namespace Basket.Core.Entities
 {
     public class BasketCheckout
     {
 
         public string UserName { get; set; }
         public decimal TotalePrice { get; set; }
-        public string FristName { get; set; }
-        public string LastName { get; set; }
-        public string EmailAdress { get; set; }
+        public string FirstName { get; set; }
 
-        public string AdressLine { get; set; }
+        public string LastName { get; set; }
+        public string EmailAddress { get; set; }
+
+
+        public string AddressLine { get; set; }
         public string Country { get; set; }
         public string City { get; set; }
 

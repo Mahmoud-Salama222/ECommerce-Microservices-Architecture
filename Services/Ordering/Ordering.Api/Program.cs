@@ -1,14 +1,15 @@
-using Ordering.Infrastructure.Extensions;
-using Ordering.Application.Extensions;
-using Ordering.API.Extension;
-using Ordering.Infrastructure.Data;
-using Ordering.Application.Commends;
+using EventBus.Messages.Common;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using Ordering.API.EventBusConsumer;
+using Ordering.Application.Commends;
+using Ordering.Application.Extensions;
+using Ordering.Infrastructure.Data;
+using Ordering.Infrastructure.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddApiVersioning(options =>
 {
@@ -26,7 +27,7 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
-        Title = "Catolog Api",
+        Title = " Ordering Api",
         Version = "v1",
         Description = "This Catalog for Microservices Ecommerce Application",
         Contact = new Microsoft.OpenApi.Models.OpenApiContact
@@ -54,14 +55,29 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddApplicationServices();
 builder.Services.AddInfraServices(builder.Configuration);
-builder.Services.AddOpenApi();
+builder.Services.AddScoped<BasketOrderingConsumer>();
+builder.Services.AddMassTransit(config =>
+{
+    config.AddConsumer<BasketOrderingConsumer>();
+    config.UsingRabbitMq((ct, cfg) =>
+    {
+
+        cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
+        cfg.ReceiveEndpoint(EventBusConstant.BasketCheckOutQueue, c =>
+        {
+            c.ConfigureConsumer<BasketOrderingConsumer>(ct);
+        });
+    });
+});
+builder.Services.AddMassTransitHostedService();
+builder.Services.AddControllers();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CheckoutOrderCommand).Assembly));
 
-builder.Logging.ClearProviders();
-builder.Logging.AddConsole();
+builder.Services.AddOpenApi();
+
 var app = builder.Build();
-// Apply migration & seed
+//Apply migration & seed
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -72,7 +88,10 @@ using (var scope = app.Services.CreateScope())
         var logger = services.GetRequiredService<ILogger<OrderContextSeed>>();
 
         // Apply migrations
-        context.Database.Migrate();
+        if (context.Database.GetPendingMigrations().Any())
+        {
+            context.Database.Migrate();
+        }
 
         // Seed data
         await OrderContextSeed.SeedAsync(context, logger);

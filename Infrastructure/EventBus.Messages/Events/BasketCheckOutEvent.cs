@@ -1,15 +1,14 @@
-﻿using MediatR;
-
-namespace Ordering.Application.Commends
+﻿namespace EventBus.Messages.Events
 {
-    public class CheckoutOrderCommand : IRequest<int>
+    public class BasketCheckOutEvent : BaseIntegrationEvent
     {
-
-        public int Id { get; set; }
         public string? UserName { get; set; }
+
         public decimal? TotalPrice { get; set; }
-        public string? EmailAddress { get; set; }
+
         public string? AddressLine { get; set; }
+        public string? EmailAddress { get; set; }
+
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Country { get; set; }
@@ -24,6 +23,6 @@ namespace Ordering.Application.Commends
         public string? Expiration { get; set; }
         public string? Cvv { get; set; }
         public int? PaymentMethod { get; set; }
-    }
 
+    }
 }

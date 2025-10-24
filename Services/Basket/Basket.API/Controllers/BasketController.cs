@@ -1,12 +1,14 @@
-﻿using Basket.Api.Controllers;
+﻿using AutoMapper;
+using Basket.Api.Controllers;
 using Basket.Application.Commends;
 using Basket.Application.Queries;
 using Basket.Application.Response;
+using Basket.Core.Entities;
 using Basket.Core.Repositries;
+using EventBus.Messages.Events;
+using MassTransit;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
 
 namespace Basket.API.Controllers
 {
@@ -16,15 +18,40 @@ namespace Basket.API.Controllers
     {
         private readonly IMediator _mediator;
         private readonly IBasketRepository _basketRepository;
+        private readonly IPublishEndpoint _publisherEndpoint;
+        private readonly IMapper _mapper;
 
 
-
-        public BasketController(IMediator mediator, IBasketRepository basketRepository)
+        public BasketController(IMediator mediator,
+            IBasketRepository basketRepository,
+            IPublishEndpoint publisherEndpoint,
+            IMapper mapper)
         {
             _mediator = mediator;
             _basketRepository = basketRepository;
-
+            _publisherEndpoint = publisherEndpoint;
+            _mapper = mapper;
         }
+
+        [HttpPost]
+        [Route("CheckOut")]
+        public async Task<ActionResult> CheckOut(BasketCheckout basketCheckout)
+        {
+
+            var query = new GetBasketByUserNameQuery(basketCheckout.UserName);
+            var basket = await _mediator.Send(query);
+            if (basket == null)
+            {
+                return BadRequest();
+            }
+            var eventmessage = _mapper.Map<BasketCheckOutEvent>(basketCheckout);
+            eventmessage.TotalPrice = basket.TotalPrice;
+            await _publisherEndpoint.Publish(eventmessage); // publish so can order services consume and order
+            var deletedcommend = new DeleteBasketByUserNameCommend(basketCheckout.UserName);
+            await _mediator.Send(deletedcommend);
+            return Accepted();
+        }
+
         [HttpGet]
         [Route("[action]/{userName}", Name = "GetBasketByUserName")]
         //[ProducesResponseType(typeof(ShoppingCardResponse), 200)]
@@ -38,7 +65,6 @@ namespace Basket.API.Controllers
         }
 
 
-
         [HttpPost]
         [Route("CreateOrUpdateBasket")]
 
@@ -50,13 +76,7 @@ namespace Basket.API.Controllers
             return Ok(result);
 
 
-
         }
-
-
-
-
-
 
 
         [HttpDelete]
@@ -69,8 +89,8 @@ namespace Basket.API.Controllers
             var result = await _mediator.Send(commend);
             return Ok(result);
 
-
-
         }
+
+
     }
 }

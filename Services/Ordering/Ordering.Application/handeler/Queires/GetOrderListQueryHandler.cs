@@ -27,9 +27,17 @@ namespace Discount.Application.handeler.Queires
         }
         public async Task<IList<OrderResponse>> Handle(GetOrderListQuery request, CancellationToken cancellationToken)
         {
-            var OrderList = await _orderRepositry.GetOrderByUserName(request.UserName);
+            logger.LogInformation("Fetching orders for user: {User}", request.UserName);
 
-            return _mapper.Map<IList<OrderResponse>>(OrderList.ToList());
+            var orderList = await _orderRepositry.GetOrderByUserName(request.UserName);
+
+            logger.LogInformation("Mapping {Count} orders", orderList.Count());
+
+            var mapped = _mapper.Map<IList<OrderResponse>>(orderList);
+
+            logger.LogInformation("Successfully mapped orders.");
+
+            return mapped;
 
 
         }

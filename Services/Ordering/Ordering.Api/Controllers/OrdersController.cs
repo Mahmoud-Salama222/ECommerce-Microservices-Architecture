@@ -2,7 +2,6 @@
 using Discount.Application.commends;
 using Discount.Application.Queires;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Ordering.Application.Commends;
 using Ordering.Application.ResponseDto;
@@ -16,12 +15,12 @@ namespace Ordering.API.Controllers
         private readonly ILogger<OrdersController> _logger;
         public OrdersController(IMediator mediator, ILogger<OrdersController> logger)
         {
-            _mediator=mediator;
+            _mediator = mediator;
             _logger = logger;
         }
         [HttpGet("{userName}", Name = "GetOrdersByUserName")]
         [ProducesResponseType(typeof(IEnumerable<OrderResponse>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<OrderResponse>>>GetOdersByUserName(string userName)
+        public async Task<ActionResult<IEnumerable<OrderResponse>>> GetOdersByUserName(string userName)
         {
             var query = new GetOrderListQuery(userName);
             var orders = await _mediator.Send(query);
